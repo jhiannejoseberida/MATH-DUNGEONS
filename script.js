@@ -104,6 +104,7 @@ playButton.addEventListener("click", function () {
   playerLives = 5;
   playerScore = 0;
   scoreLabel.innerHTML = "Score: " + playerScore;
+  ingameScore.innerHTML = "Score: " + playerScore;
   lifeCounter.style.backgroundImage = `url('life${playerLives}.png')`;
   mainMenu.classList.remove("active");
   showNewQuestion();

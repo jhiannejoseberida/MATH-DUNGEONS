@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>MATH DUNGEONS</title>
+</head>
+<body>
+    <main>
+        <audio controls autoplay loop>
+            <source src="dungeons.mp3" type="audio/mpeg">
+          </audio>
+        <h1 id="title">Copyrights Jhianne Berida 2024</h1>
+        <div class="iphone">
+            <div class="notch">
+                <div class="camera"></div>
+                <div class="speaker"></div>
+            </div>
+            <div class="screen">
+                <div class="scene active" id="main-menu">
+                    <div class="playButtonDiv">
+                        <button id="playButton">Play</button>
+                    </div>
+                </div>
+                <div class="scene" id="in-game">
+                    <div class="monster-div-container">
+                        <div class="monster-div"></div>
+                    </div>
+                    <div class="life-label"><h1>Lives: </h1></div>
+                    <div class="life-div-container">
+                        <div class="life-counter"></div>
+                    </div>
+                    <div class="question-div">
+                        <h1 id="question-text">Algebraic statement that two quantities are unequal is called...</h1>
+                    </div>
+                    <div class="choices-div-container">
+                        <button id="choice1">Equality</button>
+                        <button id="choice2">Inequality</button>
+                        <button id="choice3">System</button>
+                        <button id="choice4">Solution</button>
+                    </div>
+                    <h1 id="ingame-score">Score: </h1>
+                </div>
+                <div class="scene" id="game-over">
+                    <h1 id="score-label">Score: </h1>
+                    <h1 id="high-score-label">High Score: </h1>
+                    <button id="playAgainButton">Play Again</button>
+                    <button id="mainMenuButton">Main Menu</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

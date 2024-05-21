@@ -183,3 +183,7 @@ mainMenuButton.addEventListener("click", function () {
     gameOver.classList.remove("active");
     mainMenu.classList.add("active");
 });
+
+if (playerLives === 0) {
+    playerScore = 0;
+}
